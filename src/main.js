@@ -13,9 +13,3 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
-new Vue({
-  el: '#app2',
-  data: {
-    message: '안뇽'
-  }
-})
