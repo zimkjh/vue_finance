@@ -1,7 +1,11 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
     <router-view/>
+    <h2>Hello world!</h2>
+    <marquee>HEY</marquee>
+    <div id="app2">
+      {{message}}
+    </div>
   </div>
 </template>
 
@@ -9,6 +13,7 @@
 export default {
   name: 'App'
 }
+
 </script>
 
 <style>
